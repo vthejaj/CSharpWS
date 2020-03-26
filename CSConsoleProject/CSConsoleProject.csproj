@@ -36,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSConsoleProject.EF.ListCategories</StartupObject>
+    <StartupObject>CSConsoleProject.linq.QueryExpressionsDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -67,6 +67,9 @@
     <Compile Include="Factors.cs" />
     <Compile Include="LargestNum.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="linq\Book.cs" />
+    <Compile Include="linq\QueryExpressionsDemo.cs" />
+    <Compile Include="linq\QueryOperatorsDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Square.cs" />
